@@ -1,18 +1,39 @@
-# # Maven
-/target
+# ------------------------------
+# Maven
+# ------------------------------
+target/
 !.mvn/wrapper/maven-wrapper.jar
-.mvn/wrapper/maven-wrapper.properties
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# IDEs
-.idea
+# ------------------------------
+# IntelliJ IDEA
+# ------------------------------
+.idea/
+*.iws
 *.iml
 *.ipr
-*.iws
-.vscode/
 
+# ------------------------------
 # Logs
+# ------------------------------
 *.log
 
-# OS Files
+# ------------------------------
+# OS-specific files
+# ------------------------------
 .DS_Store
 Thumbs.db
+
+# ------------------------------
+# Java
+# ------------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# ------------------------------
+# Spring Boot dev tools
+# ------------------------------
+.spring-boot-devtools.properties
