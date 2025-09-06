@@ -21,7 +21,7 @@ public class QuoteController {
         this.rateLimiter = rateLimiter;
     }
 
-    @GetMapping("/quote")
+    @GetMapping("/")
     public ResponseEntity<?> getQuote(HttpServletRequest request) {
         String ip = request.getRemoteAddr();
 
